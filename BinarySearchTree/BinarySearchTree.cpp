@@ -7,7 +7,7 @@ class Node
 public:
 	string info;
 	Node* leftchild;
-	Node* rightchild;
+	Node* rightchild; 
 
 	//constructor for the node class
 	Node(string i, Node* l, Node* r)
