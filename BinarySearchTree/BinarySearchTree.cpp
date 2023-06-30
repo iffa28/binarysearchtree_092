@@ -100,7 +100,7 @@ public:
 		}
 	}
 	
-	void postorder(Node* ptr)
+	void postorder(Node* ptr) 
 	{
 		//performs the postorder traversal of the tree
 		if (ROOT == NULL)
