@@ -35,7 +35,7 @@ public:
 		newNode->rightchild = NULL;  //make the right child of the new node point to NULL
 
 		Node* parent = NULL; 
-		Node* currentNode = NULL;
+		Node* currentNode = NULL; 
 		search(element, parent, currentNode);    //Locate the node which will be the parent of the node inserted
 
 		if (parent == NULL)  //if parent is NULL(Tree is empty
