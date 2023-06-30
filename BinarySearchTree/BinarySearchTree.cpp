@@ -40,7 +40,7 @@ public:
 
 		if (parent == NULL)  //if parent is NULL(Tree is empty
 		{
-			ROOT = newNode;  //mark the ner node as ROOT
+			ROOT = newNode;  //mark the new node as ROOT
 			return;            //exit
 		}
 
@@ -51,7 +51,7 @@ public:
 
 		else if (element > parent->info)     //if the value in data field of the new node is greater than that of the parent
 		{
-			parent->rightchild = newNode;  //make the right child of the point to the new node
+			parent->rightchild = newNode;   //make the right child of the point to the new node
 		}
 	}
 
